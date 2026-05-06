@@ -1,0 +1,15 @@
+{
+  "name": "fortytwo-pages",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "dependencies": {
+    "@nuxt/icon": "^2.2.2",
+    "nuxt": "^4.0.0"
+  }
+}
