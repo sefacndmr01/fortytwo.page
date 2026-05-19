@@ -1,0 +1,32 @@
+export interface AppInfo {
+  slug: string
+  name: string
+  platforms: string
+  description: string
+  to: string
+  icon?: string
+  status?: string
+  year?: string
+}
+
+export const APPS: AppInfo[] = [
+  {
+    slug: 'avo',
+    name: 'Avo',
+    platforms: 'iOS · Android',
+    description:
+      'An AI nutrition assistant. Describe a meal in plain language; Avo returns macros, micronutrients, and allergen-aware analysis.',
+    to: '/avo',
+    icon: '/avo/icon.png',
+    status: 'Coming 2026',
+  },
+  {
+    slug: 'nyxclock',
+    name: 'Nyx Clock',
+    platforms: 'Android',
+    description:
+      'A bedside clock for nightstands and desks. Dozens of customizable faces, AMOLED-friendly, one-time purchase.',
+    to: '/nyxclock',
+    year: '2025',
+  },
+]

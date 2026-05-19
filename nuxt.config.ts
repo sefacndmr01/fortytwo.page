@@ -1,4 +1,12 @@
 export default defineNuxtConfig({
+  runtimeConfig: {
+    smtpHost: process.env.SMTP_HOST ?? '',
+    smtpPort: process.env.SMTP_PORT ?? '587',
+    smtpUser: process.env.SMTP_USER ?? '',
+    smtpPass: process.env.SMTP_PASS ?? '',
+    smtpFrom: process.env.SMTP_FROM ?? '',
+    smtpTo: process.env.SMTP_TO ?? 'info@fortytwo.page',
+  },
   compatibilityDate: '2025-01-01',
   devtools: { enabled: false },
   modules: ['@nuxt/icon'],
