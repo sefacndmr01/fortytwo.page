@@ -71,8 +71,8 @@ const features = [
       <SectionHeader label="Pricing" />
       <div class="pricing">
         <div class="pricing-main">
-          <span class="price">$9.99<span class="price-unit"> / month</span></span>
-          <p class="price-sub">First month free. Cancel any time from the App Store or Google Play subscription settings.</p>
+          <span class="price">$4.99<span class="price-unit"> / month</span></span>
+          <p class="price-sub">First 3 days free. Cancel any time from the App Store or Google Play subscription settings.</p>
         </div>
         <ul class="includes">
           <li>Unlimited AI meal analyses</li>

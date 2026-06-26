@@ -57,7 +57,7 @@ const sections: LegalSection[] = [
       {
         title: '5.1 Premium plan',
         content:
-          "Avo offers a single premium subscription tier (currently <strong>$9.99 / month</strong>, with a <strong>1-month free trial</strong> for new subscribers). The free tier provides limited access (today's dashboard, a limited number of daily AI analyses).",
+          "Avo offers a single premium subscription tier (currently <strong>$3.99 / month</strong>, with a <strong>3 days free trial</strong> for new subscribers). The free tier provides limited access (today's dashboard, a limited number of daily AI analyses).",
       },
       {
         title: '5.2 How billing works',
