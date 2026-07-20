@@ -36,6 +36,16 @@ const products = [
     description: 'A bedside clock for nightstands and desks. Dozens of clock faces with full color customization and AMOLED-optimized dark themes.',
     highlights: ['Dozens of faces', 'AMOLED themes', 'Burn-in protection', 'One-time purchase'],
   },
+  {
+    slug: 'retrace',
+    name: 'Retrace',
+    platforms: 'Android',
+    year: '2026',
+    icon: `/retrace/icon.png`,
+    to: '/retrace',
+    description: 'A spatial memory puzzle. Watch a path light up across the grid, then retrace it from memory before the signal fades.',
+    highlights: ['Escalating grids', 'Combo scoring', 'Daily challenges', 'Achievements'],
+  },
 ]
 
 const principles = [
@@ -178,14 +188,14 @@ h1 {
 /* Cards grid — breaks out of container */
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1px;
   margin-top: 28px;
   background: var(--border);
   border: 1px solid var(--border);
   border-radius: 16px;
   overflow: hidden;
-  width: min(calc(100vw - 48px), 1200px);
+  width: min(calc(100vw - 48px), 1000px);
   position: relative;
   left: 50%;
   transform: translateX(-50%);

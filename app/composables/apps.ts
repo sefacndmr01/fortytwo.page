@@ -29,4 +29,14 @@ export const APPS: AppInfo[] = [
     to: '/nyxclock',
     year: '2025',
   },
+  {
+    slug: 'retrace',
+    name: 'Retrace',
+    platforms: 'Android',
+    description:
+      'A spatial memory puzzle. Watch a path light up across the grid, then retrace it from memory before the signal fades.',
+    to: '/retrace',
+    icon: '/retrace/icon.png',
+    year: '2026',
+  },
 ]
